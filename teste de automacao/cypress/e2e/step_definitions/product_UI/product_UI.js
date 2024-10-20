@@ -1,4 +1,6 @@
 import { Given, When, Then, And } from 'cypress-cucumber-preprocessor/steps'
+import pageProduct from '../../../pagesobjects/pageProduct.js'
+const productObj = new pageProduct()
 
 
 // Realize a busca de um produto
