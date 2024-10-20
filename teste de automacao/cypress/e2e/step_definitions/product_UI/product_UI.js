@@ -3,7 +3,7 @@ import { Given, When, Then, And } from 'cypress-cucumber-preprocessor/steps'
 
 // Realize a busca de um produto
 Given('que o usuario esta na pagina inicial do site', () => {
-    
+    cy.visit("/#/")
 })
 
 When('o usuario digitar o nome do produto na barra de busca', () => {
